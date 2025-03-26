@@ -14,7 +14,8 @@ int main() {
     }
 
     // Use the memory (optional demo)
-    for (int i = 0; i < 5; i++) {
+    int i;
+    for (i = 0; i < 5; i++) {
         nums[i] = i + 1;
         printf("nums[%d] = %d\n", i, nums[i]);
     }

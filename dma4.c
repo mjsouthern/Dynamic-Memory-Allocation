@@ -15,7 +15,8 @@ int main() {
     }
 
     // Use the memory: print the 10 zero-initialized integers
-    for (int i = 0; i < 10; i++) {
+    int i;
+    for (i = 0; i < 10; i++) {
         printf("numbers[%d] = %d\n", i, numbers[i]);
     }
 

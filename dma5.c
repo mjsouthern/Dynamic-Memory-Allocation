@@ -24,7 +24,8 @@ int main() {
     nums = temp; // Only assign if realloc succeeds
 
     // (Optional) Initialize and print new values
-    for (int i = 0; i < 10; i++) {
+    int i;
+    for (i = 0; i < 10; i++) {
         nums[i] = i * 10;
         printf("nums[%d] = %d\n", i, nums[i]);
     }
